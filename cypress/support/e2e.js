@@ -25,4 +25,3 @@ Cypress.on("uncaught:exception", (err, runnable) => {
   // Let other errors cause the test to fail
 });
 import "./commands";
-import "cypress-file-upload";
