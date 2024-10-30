@@ -1,0 +1,26 @@
+{
+  "name": "curly-octo-eureka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rduggan3155/curly-octo-eureka.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rduggan3155/curly-octo-eureka/issues"
+  },
+  "homepage": "https://github.com/rduggan3155/curly-octo-eureka#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8"
+  }
+}
