@@ -1,4 +1,5 @@
 name: E2E on Chrome
+
 on:
   workflow_dispatch:
     inputs:
@@ -7,6 +8,7 @@ on:
         required: false
   pull_request:
     types: [opened, reopened, edited, synchronize]
+
 jobs:
   Cypress-Run:
     runs-on: ubuntu-latest
@@ -14,7 +16,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4.1.1
-      - name: Cypress run
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'  # Specify a Node.js version compatible with your project
+
+      - name: Install dependencies
+        run: npm install  # Ensures Cypress and other dependencies are installed
+
+      - name: Run Cypress tests
         uses: cypress-io/github-action@v6.6.1
         with:
           browser: chrome
