@@ -20,10 +20,11 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'  # Specify a Node.js version compatible with your project
+          node-version: "16" # Specify a Node.js version compatible with your project
 
       - name: Install dependencies
-        run: npm install  # Ensures Cypress and other dependencies are installed
+        run: npm install
+        working-directory: ./week-11-cy-automation
 
       - name: Run Cypress tests
         uses: cypress-io/github-action@v6.6.1
