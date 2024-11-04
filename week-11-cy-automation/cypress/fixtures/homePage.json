@@ -1,0 +1,17 @@
+{
+  "findingJobs": {
+    "findingTextLabel": "Finding jobs in your area",
+    "searchForPlacementText": "Search for jobs by title or keyword",
+    "locationPlacementText": "Location"
+  },
+  "buttonText": {
+    "acceptCookies": "Accept all"
+  },
+  "inputText": {
+    "titleKeywordText": "Software QA",
+    "locationText": "San Francisco, CA"
+  },
+  "urlText": {
+    "keyWordTxtSearch": "search?base_query=Software+QA"
+  }
+}
