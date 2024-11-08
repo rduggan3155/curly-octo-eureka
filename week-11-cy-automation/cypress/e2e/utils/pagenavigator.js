@@ -1,5 +1,5 @@
 class PageNavigator {
-  gotoJobSearch(baseURL) {
+  gotoCareersAmergis(baseURL) {
     cy.visit(`${baseURL}`);
   }
 }

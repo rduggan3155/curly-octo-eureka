@@ -7,7 +7,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     env: {
-      baseUrl: "https://www.amazon.jobs/en/"
+      baseUrl: "https://careers.amergis.com/"
     }
   }
 });

@@ -1,0 +1,24 @@
+{
+  "applicationForm": {
+    "first": "Bette",
+    "last": "Davis",
+    "email": "rebeccadugga7777777@gmail.com",
+    "phone": "677-4103",
+    "drpdwn": {
+      "race": 1,
+      "sex": 1,
+      "disabledStatus": 1,
+      "veteranStatus": 1,
+      "resumeNo": 1,
+      "resumeYes": 0
+    }
+  },
+  "formValidation": {
+    "submit": "There was a problem with your submission. Please review the fields below.",
+    "requiredLabel": " indicates required fields",
+    "names": "This field is required. Please complete the following fields: First, Last.",
+    "genericRequiredTxtFields": "This field is required.",
+    "genericRequiredDrpdwn": "This field is required.",
+    "genericImage": "This field is required."
+  }
+}

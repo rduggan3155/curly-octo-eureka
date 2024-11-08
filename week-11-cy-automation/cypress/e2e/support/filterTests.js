@@ -15,7 +15,7 @@ export const TestTags = {
 
   Smoke: "smoke",
 
-  Login: "login"
+  Application: "application"
 };
 
 export default TestFilters;
